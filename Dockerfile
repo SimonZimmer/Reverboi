@@ -105,3 +105,5 @@ RUN python3 -m pip install \
     ipython
 
 RUN apt-get install libsndfile1-dev -y  
+
+RUN git clone --recursive https://github.com/SimonZimmer/Reverboi.git
